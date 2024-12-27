@@ -7,7 +7,7 @@ st.title("🤖 Chat con el modelo Qwen")
 
 
 API_URL = "https://api-inference.huggingface.co/models/Qwen/QwQ-32B-Preview/v1/chat/completions"
-API_KEY = "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"
+API_KEY = ""
 
 
 def query_huggingface(messages, max_tokens=512, stream=False):
